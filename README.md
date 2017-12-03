@@ -8,7 +8,7 @@ A simple Python script for sending email from your Gmail account
 
 ### Usage Instructions
 
-```
+```python
 import pygmail
 response = pygmail.send_mail('sender@gmail.com', 'receiver@email.com', 'Message Subject', 'Message text')
 ```
